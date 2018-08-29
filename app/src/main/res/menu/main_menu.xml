@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xmln="http://schemas.android.com/tools"
+    xmln:sabd="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@android:drawable/ic_menu_call"
+        android:id="@+id/action_settings"
+        android:orderInCategory="1"
+        android:title="Настройки"
+         app:showAsAction="ifRoom|withText"/>
+    <item
+        android:icon="@android:drawable/btn_star_big_off"
+        android:id="@+id/save_settings"
+        android:orderInCategory="3"
+        android:title="Сохранить"
+        app:showAsAction="ifRoom|withText"/>
+
+    <item
+        android:id="@+id/open_settings"
+        android:orderInCategory="2"
+        android:title="Открыть"
+        android:icon="@drawable/round_settings_black_18"
+        app:showAsAction="ifRoom|withText"/>
+    <!--android:icon="@android:drawable/ic_dialog_alert"-->
+
+
+    <item
+        android:id="@+id/close_settings"
+        android:orderInCategory="4"
+        android:title="Закрыть"
+        android:icon="@android:drawable/ic_delete"
+        app:showAsAction="ifRoom|withText"/>
+
+
+</menu>
